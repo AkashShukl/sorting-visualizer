@@ -1,0 +1,90 @@
+/* .bar-container{
+    display:flex;
+    background-color: black;
+    height: 400px;
+    width: 800px;
+
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    padding: 20px;
+        
+}
+
+.bar{
+    height: 300px;
+    width : 30px;
+    background-color: cornflowerblue;
+    margin-top: 70px;
+} */
+body{
+    background-color: black;
+}
+
+#header{
+    color: white;
+    font-size: 2em;
+    text-transform: uppercase;
+    text-align: center;
+}
+hr{
+    background-color: white;
+    border-color: white;
+}
+.controls{
+    margin-left:auto;
+    justify-content: center;
+    text-align:center;
+    margin-top:20px;
+}
+
+select, button {
+    height: 40px;
+    background-color:black;
+    color:white;
+    border-color:white;
+    width:200px;
+    font-size: 15px;
+}
+
+
+.bar-container{
+    display:flex;
+    background-color: black;
+    border-style: solid;
+    border-color: white;
+    border-width: 5px;
+    /* height: 400px; */
+    width: 800px;
+    position: absolute;
+    /* left: 50%; */
+    /* top: 50%; */
+    /* right: 50%; */
+    /* bottom: 50%; */
+    /* transform: translate(-50%, -50%); */
+    padding: 20px;
+    transform: rotate(180deg);
+    margin-top: 25%;
+    margin-left: 25%;
+    margin-bottom: 20%;
+    margin-top: 100px;
+}
+
+.bar{
+    height: 300px;
+    width : 30px;
+    background-color: cornflowerblue;
+    /* margin-top: 70px; */
+    bottom: 0px;
+    top: auto;
+    position: unset;
+}
+
+
+.bar_id{
+    color: cornsilk;
+    font-weight: 700;
+    position: absolute;
+    transform: rotate(180deg);
+}
